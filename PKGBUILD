@@ -1,4 +1,5 @@
 # Maintainer: George Rawlinson <george@rawlinson.net.nz>
+# Maintainer: Bret Comnes <bcomnes@gmail.com>
 
 pkgname=homebridge
 pkgver=1.8.0
