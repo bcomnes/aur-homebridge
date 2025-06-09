@@ -2,7 +2,7 @@
 # Maintainer: Bret Comnes <bcomnes@gmail.com>
 
 pkgname=homebridge
-pkgver=1.9.0
+pkgver=1.10.0
 pkgrel=1
 pkgdesc='HomeKit support for the impatient'
 arch=('any')
@@ -14,8 +14,8 @@ optdepends=('homebridge-config-ui-x: for web-based management tool')
 options=('!emptydirs' '!strip')
 source=("https://registry.npmjs.org/$pkgname/-/$pkgname-$pkgver.tgz")
 noextract=("$pkgname-$pkgver.tgz")
-sha512sums=('87c13fe95383b25f0cd290f07ff2eee7c888e96cdf00c6dc3a7788486a4a4b5ea37f64a5ef23f873aa5f14d3d863f7f1c245ae1d495be6651a672e3112f6fb2d')
-b2sums=('d9b5fde3b026bc7e7fd5916ec77139fa076bb99ee544fdccb8c6057c3763af38695471e0f2daf6276be6c5c0b4ce1833d3556a5e4f6216e925ba96889a346625')
+sha512sums=('943ee3045b06841b85d4727dfa2bece409c00c42517c729760b399934e197c2ffa2fb133e05b654096c43cc06cf7c2c01f44225e65e60ae66753e2ff8c22901e')
+b2sums=('86b7809522bb31f971caab175e87455ed662beeaab0a06bff201d0951bd84a42d49f1c3bdcbb4d3d6a3526d16d89bd2c23d2e36dc0111b509ea3e0c81aca895f')
 
 package() {
   npm install \
